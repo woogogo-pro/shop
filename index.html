@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Adult Store Ireland | Visit SEXstore.ie – Discreet Online Shop</title>
+<title>UK & Ireland's Adult Shop | Visit SEXstore.ie – Discreet Online Shop</title>
 
 <style>
 body{
@@ -30,12 +30,19 @@ p{
   font-size:15px;
   line-height:1.4;
   margin:10px 0;
+  text-align: center; /* Középre zártam, hogy kövesse a képernyőfotó dizájnját */
 }
 
 ul{
   margin:15px 0;
   padding-left:18px;
   color:#ddd;
+  display: inline-block;
+  text-align: left;
+}
+
+.list-wrapper {
+  text-align: center; /* Segít középre igazítani a listát, miközben a pontok balra zártak maradnak */
 }
 
 li{
@@ -46,7 +53,7 @@ li{
   display:block;
   width:90%;
   text-align:center;
-  margin-top:25px;
+  margin:25px auto 5px auto; /* Középre igazítja a gombot */
   padding:16px;
   background:#ff2d55;
   color:#fff;
@@ -54,6 +61,15 @@ li{
   font-size:20px;
   border-radius:10px;
   font-weight:bold;
+}
+
+.customs-notice {
+  font-size: 13px;
+  color: #aaa;
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  font-style: italic;
 }
 
 .small{
@@ -69,19 +85,21 @@ li{
 
 <div class="container">
 
-<h1>Ireland’s Adult Shop</h1>
+<h1>UK & Ireland's Adult Shop</h1>
 
 <p>
-Fast, discreet and secure online shopping for adult products in Ireland & EU.
+Fast, discreet and secure online shopping for adult products. Fast delivery to Ireland, Northern Ireland & UK with no customs delays.
 </p>
 
-<ul>
-<li>15,000+ products in stock</li>
-<li>Discreet packaging</li>
-<li>Affordable prices</li>
-<li>Fast EU delivery</li>
-<li>Secure checkout</li>
-</ul>
+<div class="list-wrapper">
+  <ul>
+  <li>15,000+ products in stock</li>
+  <li>Discreet packaging (No shop markings)</li>
+  <li>Affordable prices</li>
+  <li>Fast UK & Ireland delivery</li>
+  <li>Secure checkout</li>
+  </ul>
+</div>
 
 <p>
 Premium adult toys, lingerie, BDSM gear and wellness products in one place.
@@ -89,8 +107,12 @@ Trusted online store with full privacy guaranteed.
 </p>
 
 <a class="btn" href="https://SEXstore.ie" target="_blank">
-Shop at SEXstore.ie
+Go to SEXstore.ie
 </a>
+<!-- Ez a sor kiemelten fontos, hogy az észak-írek ne forduljanak vissza a .ie domain láttán -->
+<div class="customs-notice">
+  Free & Fast Shipping to Northern Ireland & UK – No Customs Fees
+</div>
 
 <div class="small">
 18+ Only • Discreet Service • Secure Shopping
